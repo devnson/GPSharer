@@ -12,9 +12,3 @@ GPSharer is an app where you can access your friend's location anytime. GPSharer
       is only updated to firebase)
       
      
-     
-      
-
-
-
-

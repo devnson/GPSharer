@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JoinCircleActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="@string/join_circle_TV"
+        android:layout_above="@id/pinview_id"
+        android:textAlignment="center"
+        android:layout_marginBottom="10dp" />
+
+
+    <com.goodiebag.pinview.Pinview
+        android:id="@+id/pinview_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:pinWidth="40dp"
+        app:pinHeight="40dp"
+        android:layout_centerInParent="true"
+        app:pinLength="6" />
+
+    <Button
+        android:id="@+id/submitBtn_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pinview_id"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:text="ADD" />
+
+
+</RelativeLayout>

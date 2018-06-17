@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">GPSharer</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="permission_required">App permission required</string>
+    <string name="title_activity_maps2">Map</string>
+
+
+    <string name="create_circle_textview">This is your circle code.</string>
+    <string name="create_circle_textview2">In order to get their location you have to create a circle or have to be in their circle.
+        Share this code to invite them into your circle</string>
+    <string name="join_circle_TV">To add your friends into your circle you have enter their code. Please enter their circle code</string>
+
+</resources>

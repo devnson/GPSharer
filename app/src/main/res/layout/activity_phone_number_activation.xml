@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Dark"
+    tools:context=".PhoneNumberActivation">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up with Phone Number"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="110dp"
+        android:textColor="#fff" />
+
+    <EditText
+        android:id="@+id/nameET_id"
+        android:textColor="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="50dp"
+        android:hint="Enter your full name" />
+
+    <com.hbb20.CountryCodePicker
+        android:id="@+id/countryCodePicker_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="50dp"></com.hbb20.CountryCodePicker>
+
+    <EditText
+        android:id="@+id/phnET_id"
+        android:textColor="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="235dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="50dp"
+        android:hint="Enter your phone number"
+        android:phoneNumber="true" />
+
+
+    <Button
+        android:id="@+id/verifybtn_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Verify Code"
+        android:background="#fff" />
+
+    <Button
+        android:id="@+id/signupbtn_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Send Verification"
+        android:background="#fff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="50dp"
+        android:text="A verification code will be sent to your number" />
+
+    <EditText
+        android:id="@+id/verificationCode_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="15dp"
+        android:inputType="number"
+        android:textColor="#fff"
+        android:textColorHint="@color/Dark"
+        android:hint="Verification Code"
+        android:visibility="invisible" />
+
+</RelativeLayout>

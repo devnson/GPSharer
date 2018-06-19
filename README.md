@@ -11,7 +11,9 @@ GPSharer is an app where you can access your friend's location anytime. GPSharer
      -After adding friends, you can access their location anytime (Only if the user is online, being online the user's location
       is only updated to firebase)
       
-<img src="https://github.com/bastolasushan/GPSharer/blob/master/Screenshot_20180617-184752.png" height="320" width="320">            
+<img src="https://github.com/bastolasushan/GPSharer/blob/master/Screenshot_20180617-184752.png" height="460" width="260">   <img src="https://github.com/bastolasushan/GPSharer/blob/master/Screenshot_20180617-184757.png" height="460" width="260">
+<img src="https://github.com/bastolasushan/GPSharer/blob/master/Screenshot_20180617-184958.png" height="460" width="260">                     <img src="https://github.com/bastolasushan/GPSharer/blob/master/Screenshot_20180617-185006.png" height="460" width="260">  
+<img src="https://github.com/bastolasushan/GPSharer/blob/master/Screenshot_20180617-185013.png" height="460" width="260">                                                              <img src="https://github.com/bastolasushan/GPSharer/blob/master/Screenshot_20180617-230747.png" height="460" width="260">  
 
       
      
